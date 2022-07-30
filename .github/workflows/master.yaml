@@ -1,0 +1,27 @@
+name: Publish book
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - name: Install dependencies
+        run: bundle install
+      - name: Create book
+        run: bundle exec rake --trace
+      - uses: actions/upload-artifact@v2
+        with:
+          name: book
+          path: build
