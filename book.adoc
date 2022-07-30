@@ -1,0 +1,33 @@
+= The Book
+:author: The Author
+:email:  email@server.com
+:revnumber: 1.0
+:revdate: January 1st, 1970
+:doctype: book
+:toc:
+:icons: font
+:font:
+:data-uri:
+:lang: en
+:language: javadocript
+
+[preface]
+include::docs/preface.adoc[]
+
+include::docs/chapter.adoc[]
+
+[colophon]
+include::docs/colophon.adoc[]
+
+[appendix]
+include::docs/appendix.adoc[]
+
+include::docs/bibliography.adoc[]
+include::docs/about.adoc[]
+
+ifdef::backend-docbook[]
+[index]
+Index
+-----
+endif::backend-docbook[]
+
