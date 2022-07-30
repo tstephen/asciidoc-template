@@ -10,7 +10,7 @@ Installation
 ------------
 
 Ubuntu
-======
+------
 
 ```bash
 sudo apt install ruby-dev ruby-bundler
@@ -23,7 +23,7 @@ Usage
 
 - Outputs will be generated under the _output_ directory.
 
-Roll on
--------
+Getting started
+---------------
 - [Quick guide on syntaxes](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/)
-- Start editing, adding the  `about`, `preface`, `chapters` and others.
+- Start editing content in `docs` folder
