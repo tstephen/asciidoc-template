@@ -1,29 +1,29 @@
-= The Book
-:author: The Author
+= Exodus 15:1-21: The song of triumph
+:author: Tim Stephenson
 :email:  email@server.com
-:revnumber: 1.0
-:revdate: January 1st, 1970
-:doctype: book
-:toc:
+:doctype: article
 :icons: font
-:font:
+:font: sans-serif
 :data-uri:
 :lang: en
 :language: javadocript
+:leveloffset: +1
+:revnumber: 1.0
+:revdate: July 30, 2022
+:pagenums:
+:pdf-themesdir: resources/themes
+:pdf-theme: article-theme.yml
+:toc:
 
 [preface]
-include::docs/preface.adoc[]
+include::docs/cover-sheet.adoc[]
 
-include::docs/chapter.adoc[]
-
-[colophon]
-include::docs/colophon.adoc[]
+include::docs/preaching-exodus-15.adoc[]
+include::docs/preaching-rationale-exodus-15.adoc[]
+include::docs/bibliography.adoc[]
 
 [appendix]
 include::docs/appendix.adoc[]
-
-include::docs/bibliography.adoc[]
-include::docs/about.adoc[]
 
 ifdef::backend-docbook[]
 [index]
